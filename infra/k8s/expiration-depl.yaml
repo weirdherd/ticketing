@@ -15,7 +15,7 @@ spec:
       containers:
         - name: expiration
           image: weridherd/expiration
-          imagePullPolicy: Never
+          # imagePullPolicy: Never
           env:
             - name: NATSS_URL
               value: 'http://natss-srv:4222'
