@@ -18,7 +18,7 @@ const landingPage = ({ currentUser, tickets }) => {
 
   return (
     <div>
-      <h1>现有的票</h1>
+      <h2>现有的票</h2>
       <table className="table">
         <thead>
           <tr>

@@ -2,6 +2,8 @@ import { natssWrapper } from './natss-wrapper'
 import { OrderCreatedListener } from './events/listeners/order-created-listener'
 
 const start = async () => {
+  console.log('Starting ...')
+
   if (!process.env.NATSS_URL) {
     throw new Error('NATSS_URL must be defined.')
   }
